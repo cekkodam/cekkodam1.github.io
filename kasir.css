@@ -1,0 +1,44 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+form {
+	width: 50%;
+	margin: 50px auto;
+	padding: 60px;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+  font: arial;
+	display: block;
+	margin-bottom: 10px;
+}
+
+input[type="number"] {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border: 1px solid #ccc;
+}
+
+button[type="button"] {
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+button[type="button"]:hover {
+	background-color: #3e8e41;
+}
+
+#kembalian {
+	font-size: 25px;
+	font-weight: arial;
+	color: #666;
+}

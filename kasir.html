@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>FarestaMart</title>
+	<link rel="stylesheet" href="kasir.css">
+</head>
+</head>
+<body>
+	<script src="kasir.java"></script>
+</body>
+</html>
+<body>
+	<form action="kasir.php" method="post">
+	  	<div class="calculator"></div>
+		<h1>FarestaMart</h1>
+		<label for="PLU">Code Barang</label>
+		<input type="number" id="PLU" value="0">
+		
+		<label for="harga">Harga Barang:</label>
+		<input type="number" id="harga" value="0">
+		
+		<label for="bayar">Total Uang:</label>
+		<input type="number" id="bayar" value="0">
+		
+		<button type="button" onclick="hitungKembalian()">Bayar</button>
+			<script>
+		function calculateTotal() {
+			var uang1 = document.getElementById("harga").value;
+			var uang2 = document.getElementById("bayar").value;
+			
+			var total = parseInt(uang1) - parseInt(uang2) =;
+			<p id="kembalian"></p>
+			document.getElementById("result").innerHTML = "Total: Rp " + total.toFixed(0);
+		}
+	</script>
+</body>
+</html>
+		<p id="kembalian">Kembalian:</p>
+	</form>
+	</style>
